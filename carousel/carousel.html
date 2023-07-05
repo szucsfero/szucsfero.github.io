@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Carousel</title>
+</head>
+
+<body>
+    <header>
+        <div id="korhinta" class="carousel slide">
+            <!-- carousel gombjai -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#korhinta" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#korhinta" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#korhinta" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!-- carousel tartalma -->
+            <div class="carousel-inner">
+                <!-- carousel elemei -->
+                <div class="carousel-item active korhinta-magassag bg-dark">
+                    <img src="./img/hotel.jpg" class="d-block mx-auto kepmagassag" alt="..." />
+                    <!-- carousel elemek szövegei -->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Első körhinta kép</h5>
+                        <p>
+                            Ez egy képfelirat egy képkörhintában.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item korhinta-magassag bg-dark">
+                    <img src="./img/pool.jpg" class="d-block mx-auto w-100 kepmagassag" alt="..." />
+                    <div class="carousel-caption d-none d-md-block top-0">
+                        <p class="fs-3 text-uppercase">Medence is vár!</p>
+                        <h1 class="display-1 fw-bolder m-3">Csobbanjunk!</h1>
+                        <button type="button" class="btn btn-primary mt-5" data-bs-toggle="modal"
+                            data-bs-target="#modal-textbox">Részletek</button>
+                    </div>
+                </div>
+                <div class="carousel-item korhinta-magassag bg-dark">
+                    <img src="./img/room.jpg" class="d-block mx-auto w-100 kepmagassag" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Harmadik körhinta kép</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- carousel vezérlő gombok -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#korhinta" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Előző</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#korhinta" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Következő</span>
+            </button>
+        </div>
+
+        <!-- előugró ablak - modal (popup) -->
+        <div class="modal" tabindex="-1" id="modal-textbox">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Felugró ablak vagyok!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Fogadd el a sütiket, ha'er!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Bezár</button>
+                        <button type="button" class="btn btn-primary">Változás mentése</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="row mt-2">
+            <div class="card col-sm-4">
+                <img src="./img/room2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Szobák</h5>
+                    <p class="card-text">Vannak szobáink, amelyekben ágyak vannak és néha ágyi poloskák vagy retkes
+                        ágyneműk.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Ágyak</li>
+                    <li class="list-group-item">Poloskák</li>
+                    <li class="list-group-item">Pókok</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="btn btn-primary">Részletek</a>
+                </div>
+            </div>
+            <article class="col-sm-8 mt-2 mt-sm-0">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/map.jpg" class="img-fluid rounded-start kepmagassag" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Kapcsolat</h5>
+                                <p class="card-text">Üdülőváros, Strand utca 15.</p>
+                                <p>Tel.: +369012345678</p>
+                                <p class="card-text"><small class="text-body-secondary">Keressen minket
+                                        Facebookon</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

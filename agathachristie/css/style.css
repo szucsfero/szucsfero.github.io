@@ -1,0 +1,50 @@
+html {
+    background-image: url("../img/hatter.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #504033;
+    font-family: 'Lucida Console', 'Monaco', monospace;
+    font-size: large;
+    margin: 0 250px 0 250px;
+    line-height: 1.5em;
+}
+
+.keret {
+    background-color: #fff;
+    opacity: 80%;
+    padding: 15px;
+    margin: auto;
+}
+
+h1 h2 {
+    text-decoration: underline;
+    font-size: xx-large;
+    text-align: center;
+}
+
+p {
+    text-indent: 25px;
+}
+
+.emlek {
+    width: 180px;
+    float: left;
+    margin-right: 15px;
+    border: #504033 solid 15px;
+    border-style: outset;
+}
+
+.konyv {
+    height: 300px;
+    float: left;
+}
+
+hr{
+    width: 90%;
+    border: 5px solid #504033;
+}
+
+ul {
+    list-style-image: url("../img/dot.png");
+}

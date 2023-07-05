@@ -1,0 +1,47 @@
+body {
+    font-family: cursive;
+    background-image: url('../img/hatter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#keret {
+    margin:auto;
+    padding: 20px;
+    border-style: none solid;
+	border-color:gray;
+    border-width: 20px;
+    width: 70%;
+}
+
+.ritka {
+    letter-spacing: 4px;
+}
+
+#kep {
+    width:40%;
+    margin: 30px;
+    box-shadow: 8px 8px 5px gray;
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+    transform: rotate(5deg);
+    border: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    float: right;
+}
+
+input {
+    color: forestgreen;
+    font-size: 18px;
+    font-family:cursive; 
+    font-weight: bold;
+    border-radius: 5px;
+    width: 40px;   
+}
+
+ul {
+    font-weight: bold;
+    font-style: italic;
+    list-style-type: square;
+}

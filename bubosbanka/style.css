@@ -1,0 +1,78 @@
+* {
+    background-color: #E7E7FF;
+    color: #1D1D4E;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 750px;
+    margin: auto;
+    padding: 15px;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    border: 1px solid #1D1D4E;
+}
+
+img.balkep {
+    width: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
+img.jobbkep {
+    width: 400px;
+    float: right;
+    margin-left: 10px;
+}
+
+table {
+    width: 320px;
+    float: left;
+}
+
+td {
+    border: 1px dotted #1D1D4E;
+    padding: 3px;
+}
+
+.fejsor {
+    background-color: #1D1D4E;
+    color: #E7E7FF;
+    text-align: center;
+    font-weight: bold;
+}
+
+.elsooszlop {
+    font-weight: bold;
+}
+
+footer {
+    clear: both;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.forras {
+    text-align: center;
+    font-style: italic;
+    border-top: 1px solid #1D1D4E;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: green;
+}

@@ -1,0 +1,71 @@
+* {
+    background-color: #FFF5E8;
+    font-family: Arial, sans-serif;
+    color: #522F00;
+    text-align: justify;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    height: 250px;
+    background-image: url("../img/maglya.jpg");
+}
+
+h1 h2 {
+    color: #B16400;
+}
+
+p {
+    text-indent: 20px;
+    background-color: transparent;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color: #B16400;
+    }
+
+img {
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px 15px 5px 15px;
+    width: 15em;
+    border: #FFEBD0 solid 2px;
+}
+
+.balra {
+    float: left;
+}
+
+.jobbra {
+    float: right;
+}
+
+ul {
+    list-style-image: url("../img/jel.png");
+}
+
+li {
+    margin-bottom: 25px;
+}
+
+footer {
+    height: 60px;
+    background-color: #FFEBD0;
+    padding: 20px 0 0 0;
+    font-size: 0.8em;
+    background-image: url("../img/buso_logo.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 55px;
+}

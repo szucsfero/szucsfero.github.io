@@ -1,0 +1,56 @@
+* {
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: #999999;
+    margin-top: 0px;
+}
+
+.container {
+    width: 1024px;
+    margin: auto;
+    padding-left: 5px;
+}
+
+header {
+    border-style: dotted;
+    border-color: green;
+}
+
+#bevezeto {
+    font-style: italic;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.oszlop {
+    float: left;
+    width: 300px;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+img {
+    width: 280px;
+    margin-top: 0px;
+    border-style: solid;
+    border-color: yellow;
+}
